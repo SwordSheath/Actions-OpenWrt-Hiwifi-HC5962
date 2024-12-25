@@ -15,7 +15,7 @@
 
 # Add a feed source
 sed -i 's/git;openwrt-23\.05/git/g' feeds.conf.default
-sed -i 's/coolsnowwolf\/routing/coolsnowwolf\/routing\.git^5437d2c91fd9f15e06fbea46677abb529ed3547c/g' feeds.conf.default
+# sed -i 's/coolsnowwolf\/routing/coolsnowwolf\/routing\.git^5437d2c91fd9f15e06fbea46677abb529ed3547c/g' feeds.conf.default
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
